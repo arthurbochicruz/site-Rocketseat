@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/*
+#3D193D
+#14191F
+#583073
+#1E2738
+
+linear-gradient(to right, white 10%, rgb(177, 96, 177))
+*/
+html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body{
+    height: 100vh;
+    width: 97vw;
+    color: var(--tex-color);
+    background-image: var(--model-day);
+    
+   /*linear-gradient(to right, #583073 30%,#3D193D 55% )*/
+    
+}
+
+:root{
+  --tex-color: white;
+  --model-day:linear-gradient(to right, #583073 30%,#3D193D 55% ) ; 
+  --border-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+}
+
+.light{
+    --tex-color: rgb(12, 11, 11);
+  --model-day:linear-gradient(to right, white 10%, rgb(177, 96, 177)) ; 
+  --border-color: rgba(253, 253, 253, 0.500);
+  --surface-color: rgb(0, 0, 0, 0.05);
+ 
+
+
+  span{
+    display: block;
+    width: 64px;
+    border: 1px solid black;
+    border-radius: 999px;
+}
+
+div#divf{
+    display: inline-block;
+    /*border:1px solid #ffffff;*/
+    position: relative;
+    left: 150px;
+    transition: 1s;
+}
+
+#dt{
+   position: relative;
+    left: 34px;
+    transition: 2.0s;
+    background: rgb(131, 130, 130) url(../contorno-de-mao-desenhada-sol-brilhante-doodle-icone-clima-de-verao-e-o-conceito-de-luz-solar-calor-e-luz-do-sol-ilustracao-.jpg) /*url(../download.png)*/;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+  
+}
+
+
+span{
+    display: block;
+    width: 64px;
+    border: 1px solid black;
+    border-radius: 999px;
+}
+
+div#divf{
+    display: inline-block;
+    /*border:1px solid #ffffff;*/
+    position: relative;
+    left: 150px;
+}
+
+#dt{
+    background: rgb(255, 255, 255) url(../download.png);
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#conteiner{
+    margin: auto;
+    /*border: 1px solid blue;*/
+    height: 712px;
+    width: 360px;
+    
+}
+
+article{
+    margin-top: 56px;
+    
+}
+
+img{
+    margin: auto;
+    display: block;
+    width: 112px;
+    border-radius: 50%;
+}
+
+a#it{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+
+div#listas{
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin: 10px;
+    display: flex;
+}
+
+ul{
+    position: relative;
+    left: -60px;
+    list-style: none;
+    text-align: center;
+    flex: auto;
+    flex-direction: column;
+}
+
+ul > li > a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    
+}
+
+ul li#links1:hover{
+    
+    background-color: rgba(245, 245, 245, 0.651);
+    transition: background-color 1.2s; 
+}
+
+ul li#links2:hover{
+    background-color: rgba(245, 245, 245, 0.651);
+    transition: background-color 1.2s; 
+    
+}
+
+ul li#links3:hover{
+    background-color: rgba(245, 245, 245, 0.651);
+    transition: background-color 1.2s; 
+}
+
+
+
+li{
+    background-color: rgba(255, 255, 255, 0.1);
+    min-width: 246px;
+    width: 319px;
+}
+
+li#links1{
+     padding: 20px;
+     background: var(--surface-color);
+     border: 1px solid var(--border-color);
+     border-radius: 5px;
+     margin: 10px
+      
+}
+
+li#links2{
+    position: relative;
+    left: 2px;
+    padding: 20px;
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);     
+    border-radius: 5px;
+    color: white;
+    margin: 8px;
+    color: black;
+    
+}
+
+li#links3{
+    padding: 20px;
+    background: var(--surface-color);
+    border: 1px solid var(--border-color); 
+    border-radius: 5px;
+    margin: 10px;
+   
+    
+}
+
+img#github{
+    position: relative;
+    left: -50px;
+    height: 55px;
+    width: 55px;
+}
+
+img#maps{
+    position: relative;
+    left: 45px;
+    top: -60px;
+    height: 60px;
+    width: 45px;
+}
